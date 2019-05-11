@@ -1,0 +1,60 @@
+/* CSS untuk Exercise 2*/
+
+body
+{
+	font-size: 20px;
+	text-align: center;
+}
+
+
+
+h1
+{ 
+	font-size: 45px;
+	text-align: center;
+}
+
+
+
+#heading
+{
+  	padding: 10px;
+  	/*border: 3px solid #73AD21;*/
+}
+
+.angka1
+{
+	margin: 10px;
+	text-align: center;
+	/*border: 3px solid #73AD21;*/
+
+}
+
+.angka2
+{
+	margin: 10px;
+	text-align: center;
+	/*border: 3px solid #73AD21;*/
+}
+
+.operator
+{
+	text-align: center;
+	margin: 10px;
+	/*border: 3px solid #73AD21;*/
+  	padding: 10px;
+}
+
+.hasil
+{
+	margin: 10px;
+	text-align: center;
+	/*border: 3px solid #73AD21;*/
+}
+
+#result
+{
+
+	font-size: 35px;
+	text-align: center;
+}

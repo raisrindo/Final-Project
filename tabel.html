@@ -1,0 +1,75 @@
+<!-- Exercise 3 : Membuat Tabel dari data Swapi dan ada filternya -->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <title>Exercise 3 : Membuat Tabel Data Swapi</title>
+  <link rel="stylesheet" type="text/css" href="src/css/tabel.css">
+  <link rel="stylesheet" type= "text/css" href="src/css/bootstrap.css">
+
+</head>
+    
+<body>
+
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">        
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="finalproject.html">Final Project</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="biodata.html"> Exercise 1 </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="kalkulator.html"> Exercise 2 </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active disabled" href="tabel.html"> Exercise 3 </a>
+                </li>      
+            </ul>
+            </div>  
+        </nav>
+
+<div>
+  <br>
+  <h1 title="Judul Exercise"> TABEL DATA DARI SWAPI </h1>
+</div>
+
+<div id = cari>
+  <br>
+  Search Name : <input id='searchData' onkeyup='cariData()' type='text' placeholder="Search">
+  </br>
+  <br>  
+</div>
+
+<div>
+<table class="table" border ="1" cellpadding="10">
+  <thead>
+    <tr>
+      <th bgcolor= #483D8B >Name</th>
+      <th bgcolor= #483D8B >Rotation Period</th>
+      <th bgcolor= #483D8B >Orbital Period</th>
+      <th bgcolor= #483D8B >Diameter</th>
+      <th bgcolor= #483D8B >Climate</th>
+      <th bgcolor= #483D8B >Gravity</th>
+      <th bgcolor= #483D8B >Terrain</th>
+      <th bgcolor= #483D8B >Surface Water</th>
+      <th bgcolor= #483D8B >Population</th>
+    </tr>
+  </thead>
+
+  <tbody id="theData">
+  </tbody>
+</table>
+</div>        
+
+<script type="text/javascript" src="./src/js/tabel.js"></script>
+
+
+</body>
+
+
+</html>
+

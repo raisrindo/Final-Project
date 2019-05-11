@@ -1,0 +1,33 @@
+/* CSS untuk Exercise 3*/
+
+body
+{
+	background-color: lightgrey;
+	font-size: 20px;
+	text-align: center;
+}
+
+h1
+{ 
+
+	font-size: 45px;
+	text-align: center;
+}
+
+
+th
+{
+color: #FFFFFF;
+}
+
+#cari
+{
+margin-left: 20px;
+}
+
+table
+{
+ text-align: center;
+}
+ 
+
